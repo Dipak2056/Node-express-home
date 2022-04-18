@@ -1,8 +1,8 @@
 {
-  "name": "node-express-home",
+  "name": "genre-api",
   "version": "1.0.0",
-  "description": "first app",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
-    "mongoose": "^6.3.0",
-    "underscore": "^1.13.2"
+    "nodemon": "^2.0.15"
   }
 }
