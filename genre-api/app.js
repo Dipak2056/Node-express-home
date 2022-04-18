@@ -1,6 +1,8 @@
 const { query } = require("express");
 const express = require("express");
 const app = express();
+
+app.use(express.json());
 //here we are writing the genres stored as object in the genre
 const genres = [
   { id: 1, name: "pop" },
@@ -26,8 +28,10 @@ app.post("/api/genre", (req, res) => {
     id: genres.length + 1,
     name: req.body.name,
     //inorder to req.body.name to work we need a json object because by default it is not enabledd in express
-    //so for that to happen we want to ad
+    //so for that to happen we want to add express json at the top of the app
   };
+  genres.push(genre);
+  res.send(course);
 });
 const port = process.env.PORT || 5500;
 app.listen(port, () => console.log(`listening on port ${port} `));
