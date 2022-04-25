@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Dipak",
+    "tags": ["express", "backend"],
+    "date": "25/04/2022",
+    "price": 12,
+    "author": "paudel"
+  },
+  {
+    "name": "Dipak",
+    "tags": ["express"],
+    "date": "25/04/2022",
+    "price": 12,
+    "author": "paudel"
+  },
+  {
+    "name": "Dipti",
+    "tags": ["express", "backend"],
+    "date": "25/04/2022",
+    "price": 12,
+    "author": "paudeli"
+  }
+]
